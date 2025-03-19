@@ -4,7 +4,8 @@ ln -s ~/.dotfiles/tmux/.tmux ~/.tmux
 
 # Initial setup (not taking into account editing .tmux.conf) 
 ## Add the TPM 
-git submodule add https://github.com/tmux-plugins/tpm ~/.dotfiles/tmux/.tmux/plugins/tpm
+cd .dotfiles/tmux # please make sure to be in the directory
+git submodule add https://github.com/tmux-plugins/tpm .tmux/plugins/tpm
 
 ## Add the catppuccin theme
 
