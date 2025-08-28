@@ -1,0 +1,13 @@
+# Create the symbolic link
+ln -s ~/.dotfiles/tmux/tmux.conf ~/.config/tmux/tmux.conf
+
+<!-- # Initial setup (not taking into account editing .tmux.conf)  -->
+<!-- ## Add the TPM  -->
+<!-- cd .dotfiles/tmux # please make sure to be in the directory -->
+<!-- git submodule add https://github.com/tmux-plugins/tpm .tmux/plugins/tpm -->
+<!---->
+<!-- ## Add the catppuccin theme -->
+<!-- mkdir -p ~/.config/tmux/plugins/catppuccin -->
+<!-- git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux -->
+
+
