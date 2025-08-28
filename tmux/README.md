@@ -1,6 +1,9 @@
 # Create the symbolic link
 ln -s ~/.dotfiles/tmux/tmux.conf ~/.config/tmux/tmux.conf
 
+# If first time 
+tmux source-file ~/.config/tmux/tmux.conf
+
 <!-- # Initial setup (not taking into account editing .tmux.conf)  -->
 <!-- ## Add the TPM  -->
 <!-- cd .dotfiles/tmux # please make sure to be in the directory -->
