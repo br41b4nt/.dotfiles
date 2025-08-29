@@ -40,7 +40,29 @@ Then just need to launch nvim :
 nvim
 ```
 
+## Requirement for the kickstart config
 
+- ripgrep (rg) is installed : `sudo apt install ripgrep`
+- rust is installed : check https://rustup.rs/
+- lua is installed : check https://www.lua.org/download.html:
+```sh
+curl -L -R -O https://www.lua.org/ftp/lua-5.4.8.tar.gz
+tar zxf lua-5.4.8.tar.gz
+cd lua-5.4.8
+make all test
+```
+Then don't forget to finalize the install : 
+```sh
+sudo make install
+```
+- luarock is installed : check https://github.com/luarocks/luarocks/wiki/Download
+```sh
+cd luarock-x.x.x
+make all test
+./configure --with-lua-include=/usr/local/include
+make
+sudo make install
+``` 
 
 
 
