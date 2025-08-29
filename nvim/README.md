@@ -28,3 +28,22 @@ export PATH="$PATH:/opt/nvim-linux-x86_64/bin/nvim"
 alias nvim="/opt/nvim-linux-x86_64/bin/nvim"
 ```
 
+# Import my nvim dotfiles
+```sh
+git clone https://github.com/br41b4nt/kickstart-modular.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+```
+
+I prefer to keep the git repos separated. 
+
+Then just need to launch nvim : 
+```sh
+nvim
+```
+
+
+
+
+
+
+
+
