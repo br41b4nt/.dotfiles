@@ -73,15 +73,15 @@ config.use_fancy_tab_bar = false
 --
 
 -- color scheme toggling
-wezterm.on("toggle-colorscheme", function(window, pane)
-	local overrides = window:get_config_overrides() or {}
-	if overrides.color_scheme == "Zenburn" then
-		overrides.color_scheme = "Cloud (terminal.sexy)"
-	else
-		overrides.color_scheme = "Zenburn"
-	end
-	window:set_config_overrides(overrides)
-end)
+-- wezterm.on("toggle-colorscheme", function(window, pane)
+-- 	local overrides = window:get_config_overrides() or {}
+-- 	if overrides.color_scheme == "Zenburn" then
+-- 		overrides.color_scheme = "Cloud (terminal.sexy)"
+-- 	else
+-- 		overrides.color_scheme = "Zenburn"
+-- 	end
+-- 	window:set_config_overrides(overrides)
+-- end)
 
 -- keymaps
 config.keys = {
@@ -149,7 +149,8 @@ config.keys = {
 }
 
 -- For example, changing the color scheme:
-config.color_scheme = "Cloud (terminal.sexy)"
+config.color_scheme = "tokyonight_storm"
+-- config.color_scheme = "Cloud (terminal.sexy)"
 config.colors = {
 	-- background = '#3b224c',
 	-- background = "#181616", -- vague.nvim bg
@@ -200,7 +201,7 @@ config.window_frame = {
 }
 
 -- config.window_decorations = "INTEGRATED_BUTTONS | RESIZE"
--- config.window_decorations = "NONE | RESIZE" -- disabled because I (Mathilde) don't use a window manager
+-- config.window_decorations = "NONE | RESIZE" -- disabled because I (br41b4nt) don't use a window manager
 config.default_prog = { "powershell.exe", "-NoLogo" }
 config.initial_cols = 80
 -- config.window_background_image = "C:/dev/misc/berk.png"
@@ -219,7 +220,7 @@ config.initial_cols = 80
 -- 	-- window:gui_window():set_position(0, 0)
 -- end)
 
--- added by MATHILDA
+-- added by br41bn4nt
 config.keys = {
 	{
 		key = "R",
