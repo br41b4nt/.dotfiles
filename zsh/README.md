@@ -1,5 +1,9 @@
 I reused a lot from this blog article : https://rushter.com/blog/zsh-shell/
 
+# Create the .zshrc config file soft link
+```sh
+ln -s ~/.dotfiles/zsh/config.zsh ~/.zshrc
+```
 
 # Install zsh 
 
