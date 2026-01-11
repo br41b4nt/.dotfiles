@@ -1,3 +1,6 @@
+I reused a lot from this blog article : https://rushter.com/blog/zsh-shell/
+
+
 # Install zsh 
 
 Install
