@@ -25,6 +25,10 @@ And replace bash with zsh
 username:x:1481049:100:Your Name:/home/username:/bin/zsh
 ```
 
+# Installe Starship
+```sh
+curl -sS https://starship.rs/install.sh | sh
+````
 
 # Install homebrew
 ```sh
